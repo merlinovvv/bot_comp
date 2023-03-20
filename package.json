@@ -1,0 +1,30 @@
+{
+  "name": "compbot",
+  "version": "1.0.0",
+  "description": "My App",
+  "main": "app.js",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "node-telegram-bot-api": "^0.61.0",
+    "nodemon": "^2.0.21"
+  },
+  "devDependencies": {
+    "@types/node-telegram-bot-api": "^0.61.3"
+  },
+  "engines": {
+    "node": "18.7.0"
+  },
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/merlinovvv/compliments_bot.git"
+  },
+  "bugs": {
+    "url": "https://github.com/merlinovvv/compliments_bot/issues"
+  },
+  "homepage": "https://github.com/merlinovvv/compliments_bot#readme"
+}
