@@ -5,8 +5,7 @@
   "main": "app.js",
   "dependencies": {
     "dotenv": "^16.0.3",
-    "node-telegram-bot-api": "^0.61.0",
-    "nodemon": "^2.0.21"
+    "node-telegram-bot-api": "^0.61.0"
   },
   "devDependencies": {
     "@types/node-telegram-bot-api": "^0.61.3"
