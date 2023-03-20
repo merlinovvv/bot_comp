@@ -18,13 +18,5 @@
     "start": "node app.js"
   },
   "author": "",
-  "license": "ISC",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/merlinovvv/compliments_bot.git"
-  },
-  "bugs": {
-    "url": "https://github.com/merlinovvv/compliments_bot/issues"
-  },
-  "homepage": "https://github.com/merlinovvv/compliments_bot#readme"
+  "license": "ISC"
 }
