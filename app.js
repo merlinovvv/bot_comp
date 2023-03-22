@@ -550,7 +550,7 @@ function sendComplimentAt(targetTime) {
 
 // Example usage: send compliment at 3:00 AM in Kiev time
 sendComplimentAt({
-    hours: 22, minutes: 35
+    hours: 22, minutes: 37
 });
 
 
