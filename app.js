@@ -514,17 +514,6 @@ function sendCompliment() {
     // Отправляем сообщение с комплиментом
     bot.sendMessage(chatId, randomCompliment + ' ❤️');
     bot.sendMessage(chatId2, "Комплимент отправлен: " + randomCompliment + ' ❤️');
-
-    let similarStrings = [];
-
-    for (let i = 0; i < compliments.length; i++) {
-        for (let j = i + 1; j < compliments.length; j++) {
-            if (compliments[j].indexOf(compliments[i]) !== -1 || compliments[i].indexOf(compliments[j]) !== -1) {
-                similarStrings.push([i, j]);
-            }
-        }
-    }
-
 };
 
 bot.onText(/\/start/, (msg) => {
@@ -561,7 +550,7 @@ function sendComplimentAt(targetTime) {
 
 // Example usage: send compliment at 3:00 AM in Kiev time
 sendComplimentAt({
-    hours: 3, minutes: 0
+    hours: 22, minutes: 33
 });
 
 
