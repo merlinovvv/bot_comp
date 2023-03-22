@@ -512,7 +512,7 @@ function sendCompliment() {
     const chatId2 = 795080081;
 
     // Отправляем сообщение с комплиментом
-    bot.sendMessage(chatId, randomCompliment + ' ❤️');
+    //bot.sendMessage(chatId, randomCompliment + ' ❤️');
     bot.sendMessage(chatId2, "Комплимент отправлен: " + randomCompliment + ' ❤️');
 };
 
